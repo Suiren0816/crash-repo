@@ -1,10 +1,10 @@
 Module metadata package name: com.android.modulemetadata
-Duration of 'EVENT LOG': 0.03s
+Duration of 'EVENT LOG': 0.04s
 Duration of 'STATS LOG': 0.01s
-Duration of 'RADIO LOG': 0.04s
+Duration of 'RADIO LOG': 0.06s
 logcat: Logcat read failure: No such file or directory
 *** command 'logcat -L -b all -v threadtime -v printable -v uid -d *:v' failed: exit code 1
-Duration of 'DUMP TRACES': 8.30s
+Duration of 'DUMP TRACES': 11.65s
 Adding dir /cache/recovery (recursive: 1)
 Adding dir /data/misc/recovery (recursive: 1)
 Adding dir /data/misc/update_engine_log (recursive: 1)
@@ -13,27 +13,27 @@ Adding dir /data/misc/profiles/cur (recursive: 1)
 Adding dir /data/misc/profiles/ref (recursive: 1)
 open(/data/system/package-dex-usage.list): No such file or directory
 Adding dir /data/misc/prereboot (recursive: 0)
-MOUNT INFO: 37 entries added to zip file
+MOUNT INFO: 36 entries added to zip file
 Failed to read metadata.
 *** command 'lpdump --all' failed: exit code 66
 Duration of 'LPDUMP': 1.03s
-Duration of 'DEVICE-MAPPER': 1.03s
+Duration of 'DEVICE-MAPPER': 1.04s
 Adding dir /metadata/ota (recursive: 1)
-Duration of 'IOTOP': 1.11s
-Duration of 'CPU INFO': 0.72s
-Duration of 'PROCRANK': 1.52s
-Duration of 'LIBRANK': 1.63s
-Duration of 'HARDWARE HALS': 0.64s
-Duration of 'DUMP HALS': 49.54s
-Duration of 'for_each_pid(SMAPS OF ALL PROCESSES)': 3.98s
+Duration of 'IOTOP': 1.10s
+Duration of 'CPU INFO': 0.51s
+Duration of 'PROCRANK': 1.84s
+Duration of 'LIBRANK': 1.78s
+Duration of 'HARDWARE HALS': 0.87s
+Duration of 'DUMP HALS': 49.00s
+Duration of 'for_each_pid(SMAPS OF ALL PROCESSES)': 3.95s
 Adding dir /data/misc/bluetooth/logs (recursive: 1)
 taking late screenshot
 drop_root_user(): already running as Shell
-Screenshot saved on /data/user_de/0/com.android.shell/files/bugreports/bugreport-sdk_phone_x86-RSR1.210210.001.A1-2022-06-09-13-44-52-png.tmp
-AddAnrTraceDir(): dump_traces_file=/data/anr/dumptrace_1iIKrG, anr_traces_dir=/data/anr
-Dumping current ANR traces (/data/anr/dumptrace_1iIKrG) to the main bugreport entry
-Error unlinking temporary trace path /data/anr/dumptrace_1iIKrG: Permission denied
-Duration of 'DUMPSYS HIGH': 6.65s
+Screenshot saved on /data/user_de/0/com.android.shell/files/bugreports/bugreport-sdk_phone_x86-RSR1.210210.001.A1-2022-06-13-05-14-07-png.tmp
+AddAnrTraceDir(): dump_traces_file=/data/anr/dumptrace_uqmyRU, anr_traces_dir=/data/anr
+Dumping current ANR traces (/data/anr/dumptrace_uqmyRU) to the main bugreport entry
+Error unlinking temporary trace path /data/anr/dumptrace_uqmyRU: Permission denied
+Duration of 'DUMPSYS HIGH': 6.97s
 Adding dir /data/misc/wmtrace (recursive: 0)
 Adding dir /data/misc/snapshotctl_log (recursive: 0)
 Calling IDumpstateDevice implementation using path /data/user_de/0/com.android.shell/files/bugreports/dumpstate_board.txt
@@ -44,11 +44,10 @@ Error dumping service info status_t: FAILED_TRANSACTION android.hardware.power.I
 Can't find service: android.service.gatekeeper.IGateKeeperService
 Error dumping service info status_t: FAILED_TRANSACTION suspend_control
 Can't find service: vold
-Duration of 'DUMPSYS': 23.86s
-Duration of 'CHECKIN MEMINFO': 1.12s
+Duration of 'DUMPSYS': 22.21s
+Duration of 'CHECKIN MEMINFO': 1.11s
 Duration of 'APP SERVICES PLATFORM': 5.16s
-Duration of 'APP SERVICES NON-PLATFORM': 1.32s
-Duration of 'APP PROVIDERS PLATFORM': 2.79s
+Duration of 'APP PROVIDERS PLATFORM': 3.81s
 Adding dir /linkerconfig (recursive: 1)
 section 1000 status 1
 section 1000 status 2
@@ -188,21 +187,19 @@ section 4000 status 1
 section 4000 status 2
 section 4001 status 1
 section 4001 status 2
-done
-Duration of 'INCIDENT REPORT': 10.79s
-Duration of 'DUMPSTATE': 111.55s
-Adjusting max progress from 5000 to 5574
-Adding main entry (bugreport-sdk_phone_x86-RSR1.210210.001.A1-2022-06-09-13-44-52.txt) from /data/user_de/0/com.android.shell/files/bugreports/bugreport-sdk_phone_x86-RSR1.210210.001.A1-2022-06-09-13-44-52.tmp to .zip bugreport
-dumpstate id 1 finished around 2022/06/09 13:46:57 (125 s)
+Duration of 'INCIDENT REPORT': 9.49s
+Duration of 'DUMPSTATE': 108.24s
+Adding main entry (bugreport-sdk_phone_x86-RSR1.210210.001.A1-2022-06-13-05-14-07.txt) from /data/user_de/0/com.android.shell/files/bugreports/bugreport-sdk_phone_x86-RSR1.210210.001.A1-2022-06-13-05-14-07.tmp to .zip bugreport
+dumpstate id 2 finished around 2022/06/13 05:16:12 (125 s)
 Adding zip text entry main_entry.txt
 dumpstate_log.txt entry on zip file logged up to here
 
-Removing temporary file /data/user_de/0/com.android.shell/files/bugreports/bugreport-sdk_phone_x86-RSR1.210210.001.A1-2022-06-09-13-44-52.tmp
-Going to copy file (/data/user_de/0/com.android.shell/files/bugreports/bugreport-sdk_phone_x86-RSR1.210210.001.A1-2022-06-09-13-44-52-zip.tmp) to 9
-Going to copy file (/data/user_de/0/com.android.shell/files/bugreports/bugreport-sdk_phone_x86-RSR1.210210.001.A1-2022-06-09-13-44-52-png.tmp) to 10
+Removing temporary file /data/user_de/0/com.android.shell/files/bugreports/bugreport-sdk_phone_x86-RSR1.210210.001.A1-2022-06-13-05-14-07.tmp
+Going to copy file (/data/user_de/0/com.android.shell/files/bugreports/bugreport-sdk_phone_x86-RSR1.210210.001.A1-2022-06-13-05-14-07-zip.tmp) to 9
+Going to copy file (/data/user_de/0/com.android.shell/files/bugreports/bugreport-sdk_phone_x86-RSR1.210210.001.A1-2022-06-13-05-14-07-png.tmp) to 10
 Vibrate: 'cmd vibrator vibrate -f 75 dumpstate'
 Vibrate: 'cmd vibrator vibrate -f 75 dumpstate'
 Vibrate: 'cmd vibrator vibrate -f 75 dumpstate'
-Final progress: 5098/5574 (estimated 5000)
-Saving stats (total=5098, runs=1, average=5098) on /bugreports/dumpstate-stats.txt
-done (id 1)
+Final progress: 5058/5098 (estimated 5098)
+Saving stats (total=10156, runs=2, average=5078) on /bugreports/dumpstate-stats.txt
+done (id 2)
